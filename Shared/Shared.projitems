@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>09a543eb-503d-47a5-8a6d-c9663af0435b</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ChronoField.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ChronoUnit.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Duration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IChronoLocalDate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IEra.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Instant.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ITemporal.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ITemporalAccessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ITemporalAdjuster.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ITemporalAmount.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ITemporalField.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ITemporalUnit.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ResolverStyle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TemporalHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ValueRange.cs" />
+  </ItemGroup>
+</Project>
